@@ -87,7 +87,7 @@ AC_SUBST([GLW_PC_LIB_PRIV])
 AC_SUBST([GLW_PC_CFLAGS])
 
 CFLAGS="$CFLAGS $GL_CFLAGS"
-LIBS="$LIBS $GL_LIBS"
+LIBS="$LIBS $GL_LIBS $MOTIF_LIBS"
 
 dnl Set up C warning flags.  Copy of XORG_CWARNFLAGS.
 if  test "x$GCC" = xyes ; then
