@@ -22,7 +22,7 @@
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.59])
-AC_INIT([glw], [1.0.0],
+AC_INIT([glw], [8.0.0],
     [https://bugs.freedesktop.org/enter_bug.cgi?product=Mesa])
 AC_CANONICAL_HOST
 
