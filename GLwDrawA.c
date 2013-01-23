@@ -474,7 +474,7 @@ static void Initialize(GLwDrawingAreaWidget req,GLwDrawingAreaWidget neww,ArgLis
 
   /* fix size */
   if(req->core.width==0) neww->core.width=100;
-  if(req->core.height==0) neww->core.width=100;
+  if(req->core.height==0) neww->core.height=100;
 
   /* create the attribute list if needed */
   neww->glwDrawingArea.myList=FALSE;
